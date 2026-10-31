@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "blockedUrlPatterns": [
+    "doubleclick.net",
+    "googleadservices.com",
+    "googlesyndication.com",
+    "/pagead/",
+    "/ptracking",
+    "/api/stats/ads",
+    "/api/stats/atr",
+    "/youtubei/v1/player/ad_break"
+  ],
+  "blockedQueryParams": [
+    {
+      "host": "googlevideo.com",
+      "param": "ctier",
+      "value": "SA"
+    }
+  ],
+  "jsonPruneKeys": [
+    "adPlacements",
+    "playerAds",
+    "adSlots",
+    "adBreakHeartbeatParams"
+  ],
+  "cosmeticCssSelectors": [
+    "ytm-promoted-sparkles-web-renderer",
+    "ytm-promoted-video-renderer",
+    "ytm-companion-ad-renderer",
+    ".ytp-ad-overlay-container",
+    ".ytp-ad-message-container",
+    "yts-promoted-video-renderer"
+  ],
+  "feedCleanupCss": {
+    "hideShorts": "ytm-reel-shelf-renderer { display: none !important; } ytd-reel-shelf-renderer { display: none !important; }",
+    "hideComments": "ytm-item-section-renderer[section-identifier='comment-item-section'] { display: none !important; } ytd-comments { display: none !important; }",
+    "hideRelated": "ytm-item-section-renderer[section-identifier='related-items'] { display: none !important; } #related { display: none !important; }"
+  },
+  "skipButtonSelectors": [
+    ".ytp-ad-skip-button",
+    ".ytp-ad-skip-button-modern",
+    ".ytp-skip-ad-button"
+  ]
+}

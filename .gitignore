@@ -1,0 +1,87 @@
+# Gradle and Android build output
+.gradle/
+**/build/
+/build/
+/app/build/
+local.properties
+
+# Android Studio local state
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iml
+.cxx/
+.externalNativeBuild/
+/captures/
+
+# Machine-specific / OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+*.sw?
+.#*
+*#
+
+# Signing credentials
+*.jks
+*.keystore
+key.properties
+release-signing.properties
+
+# VPN private configurations
+*.privatekey
+*.secret
+*_private.key
+*_private.key.*
+server_private.key
+client_private.key
+secrets/
+private-configs/
+vpn-profiles/
+*.conf
+!scripts/vps/*.conf.example
+!scripts/vps/*.conf.template
+!*.conf.example
+!*.conf.template
+
+# API credentials and environment files
+*.env
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Temporary datasets and downloads
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.sqlite
+*.sqlite3
+
+# Local debugging screenshots
+!docs/screenshots/
+device-validation-*.png
+

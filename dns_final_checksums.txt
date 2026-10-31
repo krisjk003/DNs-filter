@@ -1,0 +1,9 @@
+6cabe625ea61a6c32710fa4cc9fd7a8fb6bda6511dc5bb8b42a86efc8d05a2cc  app/src/main/java/com/zeroads/blocker/vpn/AdBlockVpnService.kt
+03b21ebc5f76ff5f51ac129d8408deb649e12ad9653a710dc81ed9d2e41931c0  app/src/main/java/com/zeroads/blocker/vpn/IPv4PacketProcessor.kt
+c29b97b4440c8261aa16dffc5562860d2771f74ece801831387fe332bc557349  app/src/main/java/com/zeroads/blocker/vpn/VpnPacketHandler.kt
+e67cd3da0dba7355feb4a1abae4775d46cb58c740e77792d6d9fc9f005d59e96  app/src/main/java/com/zeroads/blocker/dns/DnsPacketParser.kt
+80013744b5f8fc65808ed7f694bdf094035fdc6be22c65a4c2027e7fd352105b  app/src/main/java/com/zeroads/blocker/dns/DnsResponseBuilder.kt
+9e125bd229ab21ddfd53ba281edd9be20078f50c5cf6a726fc031493aa3b7921  app/src/main/java/com/zeroads/blocker/dns/DomainFilter.kt
+ce08c16972d98c388fae1ad25d85abf91edc2c5e3dc2767d46b8a24dabc46b28  app/src/main/java/com/zeroads/blocker/dns/BlocklistManager.kt
+fea5aa13c79c91deae00de10bc6775695877eacc40f8fa88c3f3d2cc1cef7e52  app/src/main/java/com/zeroads/blocker/dns/UpstreamDnsResolver.kt
+da91a820f73b3a6bc47f51816855ed3ccf552e847eb1bc646cee2690f9ecc6f0  app/src/main/AndroidManifest.xml

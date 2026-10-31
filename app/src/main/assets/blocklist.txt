@@ -1,0 +1,9 @@
+# Advertising
+doubleclick.net
+googlesyndication.com
+googleadservices.com
+adnxs.com
+adservice.google.com
+
+# Additional test domains
+adnxs.com

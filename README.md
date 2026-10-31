@@ -195,4 +195,4 @@ ZeroAds/
 - **SSL Certificates:** The application safely rejects SSL errors (`onReceivedSslError`) and does not bypass certificate validation.
 
 ---
-*End of documentation. Proceed to Phase 1 when resources permit.*
+
